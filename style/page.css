@@ -1,0 +1,105 @@
+html {
+    height: 100%;
+    font-family: Arial;
+    overflow: hidden;
+}
+
+body {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    color: white;
+    height: 100%;
+    cursor: default;
+}
+
+.NodeSpace {
+    background-color: #282C34;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+}
+
+.node {
+    background-color: #141414;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 15px;
+    position: absolute;
+    cursor: move;
+}
+
+button {
+    margin: 5px;
+}
+
+.inputs .flow {
+    background-color: white;
+    width: 10px;
+    height: 10px;
+}
+
+.outputs .flow {
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin-right: 0;
+}
+
+.consolas {
+    display: block;
+    position: absolute;
+    bottom: 25px;
+    right: 40px;
+    height: 300px;
+    width: 200px;
+    border: 2px solid rgb(34, 37, 42, 1);
+    background-color: rgba(36, 40, 45, 0.85);
+    z-index: 2;
+    padding: 2px;
+    cursor: move;
+}
+
+.consolas .header {
+    width: calc(100% - 10px);
+    height: 30px;
+    padding: 5px;
+    background-color: rgba(45, 50, 57, 0.83);
+}
+
+.consolas .console {
+    height: calc(100% - 44px);
+    padding: 7px;
+}
+
+.consolas .console p {
+    margin: 0;
+    display: inline-block;
+}
+
+#loader {
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    text-align: center;
+    background-color: #282C34;
+}
+
+.nodeValue {
+    height: 65px;
+}
+
+.nodeValue input[name='valueBox'] {
+    margin-bottom: 10px;
+}

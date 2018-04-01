@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>WebNode</title>
+    <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+    <script
+    src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+    integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsPlumb/2.0.7/jsPlumb.min.js"></script>
+    <link href="style/page.css" rel="stylesheet"/>
+    <script src="scripts/node.js"></script>
+  </head>
+  <body>
+    <div id="loader">
+      loading ...
+    </div>
+    <div class="NodeSpace">
+      <button onclick="new Print();">new Print node</button>
+      <button onclick="new Alert();">new Alert node</button>
+      <button onclick="new Clear();">new Clear node</button>
+      <button onclick="new Value();">new Value node</button>
+      <button onclick="new Append();">new Append node</button>
+      <button onclick="new Operation();">new Operation node</button>
+      <button onclick="new VariableSet();">new Set node</button>
+      <button onclick="new VariableGet();">new Get node</button>
+      <button onclick="run();">Run</button>
+      <div class="consolas"><div class="header">Console</div><div class="console">
+
+      </div></div>
+    </div>
+
+  </body>
+</html>

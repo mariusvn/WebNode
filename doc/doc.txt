@@ -1,0 +1,22 @@
+
+PAS A JOUR POUR L'INSTANT
+
+node:
+  variables:
+    id (int)
+    strId (string)
+    dom (JSdom)
+    container (JSdom)
+    nodeType (string)
+  functions:
+    updateNode(text)
+    exec()
+
+Logger:
+  variables:
+  functions:
+    text(text)
+    cls()
+
+getTargetFromId((int)id)
+run()
