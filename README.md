@@ -5,7 +5,11 @@ programs to understand how the software works.
 
 ## How to launch ?
 
-To launch Webnode, just open index.html with your internet browser.
+ - To launch Webnode, just open index.html with your internet browser.
+
+OR
+
+ - Just access Webnode on this link: https://mariusvn.github.io/WebNode/
 
 ## Can I edit Webnode to make more prossibilities ?
 
